@@ -52,7 +52,7 @@
     ></script>
     <script type="text/javascript">
       (function () {
-        emailjs.init(""); // Replace with your actual public key
+        emailjs.init("WI3Gtp6B8d9VWZOOS"); // Replace with your actual public key
       })();
     </script>
     <script type="text/javascript">
@@ -62,7 +62,7 @@
           .addEventListener("submit", function (event) {
             event.preventDefault();
 
-            emailjs.sendForm("", "", this).then(
+            emailjs.sendForm("service_5bk0eou", "template_1cc2t2n", this).then(
               () => {
                 alert("Thank you for contacting me!");
                 // Optionally, redirect or clear the form here
